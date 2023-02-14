@@ -56,3 +56,4 @@ class ItemList(MethodView):
         except SQLAlchemyError:
             abort(500, message="Error occurred while inserting item")
         return item
+

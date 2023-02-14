@@ -52,6 +52,3 @@ class UserSchema(Schema):
     password = fields.Str(required=True)
 
 
-
-
-

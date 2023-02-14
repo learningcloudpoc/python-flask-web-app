@@ -79,3 +79,4 @@ def create_app(db_url=None):
 
 if __name__ == "main":
     create_app()
+

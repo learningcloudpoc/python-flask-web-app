@@ -43,3 +43,4 @@ class StoreList(MethodView):
         except SQLAlchemyError:
             abort(500, message="Error occurred while creating store")
         return store
+

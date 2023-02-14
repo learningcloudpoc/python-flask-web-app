@@ -79,3 +79,4 @@ class User(MethodView):
         db.session.delete(user)
         db.session.commit()
         return {"message": "User deleted"}, 200
+
